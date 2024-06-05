@@ -38,6 +38,6 @@ app.listen(port, () => {
 })
 
 //index route
-app.get("/", function(req, res){
+app.get("/", function(req, render){
   res.send("index", {title: "Home"})
 } )
