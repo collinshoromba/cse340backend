@@ -38,7 +38,7 @@ app.listen(port, host, () => {
 });
 
 // Index route
-app.get("/", (req, res) => {
-  res.render("index", { title: "Home" });
-});
+app.get("/", function(req, res){
+  res.render("index", {title: "Home"})
+})
 
