@@ -317,7 +317,6 @@ footer {
   text-align: center;
 }
 
-/* Optional: Additional styles for specific elements */
 
 .namePrice {
   display: flex;
@@ -333,8 +332,6 @@ footer {
 .namePrice span {
   font-weight: bold;
 }
-
-/* Feel free to further customize these styles to match your desired branding and layout! */
 
 
 /*******bigger screens******/
