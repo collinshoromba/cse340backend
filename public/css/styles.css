@@ -104,7 +104,7 @@ h1 {
 .hero-text {
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 15%;
   transform: translate(-30%, -58%);
   text-align: center;
   background-color: rgba(0, 0, 0, 0.7);
