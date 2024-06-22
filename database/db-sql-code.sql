@@ -243,7 +243,7 @@ VALUES   (
     5
   );
 
-  UPDATE inventory
+UPDATE inventory
 SET inv_make = REPLACE(inv_description, 'small interiors', 'a huge interior')
 WHERE inv_id = 10;
 
