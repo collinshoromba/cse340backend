@@ -37,7 +37,7 @@ app.use("/inv", inventoryRoute);
  * Local Server Information
  * Values from .env (environment) file
  *************************/
-const port = process.env.PORT || 5500; // Default to 3000 if not set
+const port = process.env.PORT || 3000; // Default to 3000 if not set
 const host = process.env.HOST || '0.0.0.0'; // Default to 0.0.0.0 if not set
 
 /* ***********************
